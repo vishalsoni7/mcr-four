@@ -2,37 +2,154 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: whitesmoke;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
   display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+.header {
+  background-color: white;
+}
+
+.header h2 {
+  margin: 0rem 0rem 0rem 5rem;
+  padding: 1rem;
+  text-align: left;
+  font-size: 28px;
+}
+
+.sidebar {
+  display: flex;
+  align-items: flex-start;
   flex-direction: column;
+  justify-content: space-between;
+  height: 90vh;
+}
+
+.sidebar-a {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.sidebar img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.sidebar-user {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.sidebar-span {
+  color: gray;
+  font-size: 14px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.post-img-div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  width: 100%;
+}
+
+.post-inner-div {
+  background-color: white;
+  max-width: 35rem;
+  display: flex;
+  align-items: flex-start;
+  padding: 2rem;
+  gap: 2rem;
+  margin: 1.5rem 0rem;
+}
+
+.post-inner-div-2 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+}
+
+.post-inner-div-2 h4 {
+  margin: 10px 0px;
+}
+
+.h1 {
+  text-align: left;
+  font-size: 20px;
+}
+
+.icon {
+  margin: 0;
+  font-size: 20px;
+}
+
+.icon-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.changecolor {
+  color: #a7166688;
+}
+
+select {
+  padding: 0.7rem;
+  width: 13rem;
+  border: none;
+  background-color: gainsboro;
+}
+
+.post {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+.arrow:active {
+  color: blue;
+}
+
+.comment-div {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.comment p {
+  margin: 0;
+}
+
+.comment p span {
+  font-size: 14px;
+  color: gray;
+}
+
+.cmt-span {
+  color: gray;
+}
+
+.user {
+  color: blue;
+}
+
+.a {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
